@@ -78,6 +78,16 @@ blockquote{
    font-family: "DobkinPlain.woff", sans-serif;
    font-size: 15px;
 }
+blockquote::before {
+   content: open-quote;
+   font-size: 30px;
+   color:rgba(214, 49, 137, 0.811);
+} 
+blockquote::after {
+   content: close-quote;
+   font-size: 30px;
+   color:rgba(214, 49, 137, 0.811);
+}
 .Notes {
     background-color:chocolate;
     padding: 10px; 
