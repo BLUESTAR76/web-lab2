@@ -1,0 +1,127 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+@font-face {
+   font-family: "DobkinPlain.woff";
+   src: url("DobkinPlain.woff") format("woff");
+   font-family: "cac_champagne.woff";
+   src: url("cac_champagne.woff") format("woff");
+}
+
+.topnav {
+   background-color:rgba(143, 40, 169, 0.767);
+   padding: 10px;
+   
+}
+.topnav a{
+   text-decoration: none;
+   color:#d3d3d3;
+}
+
+
+.clear {
+   display:flex;
+  
+}
+#leftcol
+{
+   background-color: black;
+   color: white;
+   flex:3;
+   padding: 20px;
+}
+#rightcol
+{
+  
+   background-color:rgba(97, 1, 138, 0.765);
+   color:rgba(214, 49, 137, 0.811);
+   font-size: small;
+   flex:1;
+   padding: 20px;
+}
+#rightcol ul
+{
+   list-style-type: none; 
+   margin:0px;
+   
+}
+#rightcol a
+{
+   color: #9d9d9ddf;
+   text-decoration: none;
+   font-size:10px;
+}
+.special {
+   color:white;
+   font-family:"cac_champagne.woff", sans-serif;
+   font-size: xx-large;
+   text-align:left;
+   margin: auto;
+}
+#leftcol h1.special 
+{
+   font-family: "cac_champagne.woff", sans-serif;
+   font-size: 50px;
+   text-align:start;
+}
+blockquote{
+   font-family: "DobkinPlain.woff", sans-serif;
+   font-size: 15px;
+}
+.Notes {
+    background-color:chocolate;
+    padding: 10px; 
+    margin: 10px; 
+    width: 80%; 
+    height: auto; 
+}
+.Notes h1 {
+    font-size: 20px; 
+    text-align: center;
+    margin: auto;
+}
+
+.Notes ul {
+   font-size: 10px;
+   flex-direction: row;
+}
+
+
+.Events {
+    background-color:gold; 
+    padding: 10px; 
+    margin: 10px; 
+    width: 80%; 
+    height: auto; 
+}
+.Events h1 {
+    font-size: 20px; 
+    text-align: center;
+    margin: auto;
+}
+.Events h2 {
+    font-size: 14px; 
+    margin-bottom: 10px;
+}
+
+.Events p {
+    font-size: 10px; 
+}
+footer
+{
+   font-family: "DobkinPlain.woff", sans-serif;
+   background-color:slategray;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   font-size: small;
+}
