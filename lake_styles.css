@@ -30,7 +30,8 @@
 
 .clear {
    display:flex;
-  
+   border-left: yellow solid 5px;
+   border-right: yellow solid 5px;
 }
 #leftcol
 {
